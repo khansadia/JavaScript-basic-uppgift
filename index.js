@@ -10,3 +10,13 @@ var varVariable = "A var variable"; //function-scoped and it can be reassigned
 const constVariable = "A const variable"; // block-scoped and it can't be reassigned
 let letVariable = "A let variable"; //block-scoped and it can be reassigned
 console.log(varVariable, constVariable, letVariable,);
+// 3-Declare three different variables, one of each data type. Assign them values and log them to the console in three different logs.
+let oneString;
+let oneNumber;
+let oneBolean;
+oneString = "Hello World";
+oneNumber = 55;
+oneBolean = false;
+console.log(oneString);
+console.log(oneNumber);
+console.log(oneBolean);
